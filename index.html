@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayah - القرآن الكريم</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #3B82F6 0%, #1E3A5F 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: white;
+            padding: 60px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #3B82F6;
+            margin-bottom: 10px;
+        }
+        .arabic {
+            font-size: 2em;
+            color: #1E3A5F;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin: 20px 0;
+        }
+        .app-store-badge img {
+            height: 60px;
+        }
+        .links {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        .links a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #3B82F6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .features {
+            margin: 40px 0;
+            text-align: left;
+        }
+        .feature {
+            padding: 15px 0;
+            display: flex;
+            align-items: center;
+        }
+        .feature::before {
+            content: "✓";
+            color: #3B82F6;
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-right: 15px;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ayah</h1>
+        <div class="arabic">القرآن الكريم</div>
+
+        <p>
+            A beautiful and simple Quran app for iOS. Read the Holy Quran with a clean interface,
+            powerful features, and complete privacy. Works 100% offline.
+        </p>
+
+        <div class="features">
+            <div class="feature">Complete Quran text (114 Surahs)</div>
+            <div class="feature">Works completely offline</div>
+            <div class="feature">Fast search across all verses</div>
+            <div class="feature">Bookmark your favorite verses</div>
+            <div class="feature">Track your reading progress</div>
+            <div class="feature">Beautiful dark mode</div>
+            <div class="feature">No ads, no tracking, completely free</div>
+        </div>
+
+        <div class="app-store-badge">
+            <p style="color: #999; margin-bottom: 10px;">Coming soon to the App Store</p>
+            <!-- Uncomment when app is live:
+            <a href="https://apps.apple.com/app/ayah/idXXXXXXXX">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+            -->
+        </div>
+
+        <div class="links">
+            <a href="support.html">Support</a>
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Ayah - Made with care for the Muslim community</p>
+        </div>
+    </div>
+</body>
+</html>
